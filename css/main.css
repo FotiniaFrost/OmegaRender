@@ -1,0 +1,493 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+div,p,h1,h2,h3,h4,h5,h6,
+a,span,ul,ol,li,table, 
+td, tr{outline: 0px dashed #ccc;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+	height: 100%;
+}
+body {
+	font-family: 'AvenirBold', sans-serif;
+	height: 100%;
+	position: relative;
+	}
+#bg-img1{
+	width: 100vw;
+	height: 100vh;
+	background: url(../img/img1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+	background-size: cover;
+  position: absolute;
+  z-index: -9;
+ }
+
+
+
+#bg-img2{
+	width: 100vw;
+	height: 100vh;
+	background: url(../img/img2.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+  position: absolute;
+  z-index: -10;
+  
+}
+
+.wraper{
+	width: 93%;
+	margin: 0 auto;
+	min-height: 100%;
+}
+header{
+	padding-top: 2%;
+	padding-bottom: 3rem;
+
+}
+
+.logo{
+	float: left;
+	
+}
+
+h2{
+	position: absolute;
+	color: #000;
+	display:block;
+	font-family: "Roboto";
+	font-size: 2rem;
+	padding-left: 5.2rem;		
+	background:url(../img/logo.png) no-repeat 0 0;	
+	text-transform: uppercase;	
+	font-weight: 300;
+	z-index: 100;
+}
+.logo span{
+	color: #000;
+	display:block;
+	font-family: "Hoefler";
+	font-size: 1.15rem;	
+	padding: 2.5rem 0 0 4.3rem ;
+}
+
+
+
+.menu{
+	list-style: none;
+	padding-top: 6px;
+}
+.menu li{
+	float: right;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+.squaer{
+	background: #000;
+	color: #fff;
+	padding: .7rem 1.3rem;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	float: right;
+	border: 2px solid transparent;
+	transition: all .5s linear;
+}
+.squaer:hover{
+	background: #fff;
+	color: #000;
+	border: 2px solid #000;
+}
+.bor{
+	color: #000;
+	margin: 0.3rem 3rem 0 0;
+  line-height: 1.7rem;
+  border-bottom: 2px solid transparent;
+}
+.bor:hover{
+border-bottom: 2px solid #000;
+
+}
+.descript{
+	font-family: "Hoefler";
+	color: #fff;
+	font-size: 1.7rem;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 4rem;
+
+}
+footer{
+ 	width: 100%;
+	background-color: #000;
+	position: fixed;
+	bottom: 0;
+	left:0;
+}
+.foot{
+	color: #666;
+}
+.name, .mail{
+	float: left;
+}
+.name{
+	font-family: "Hoefler";
+	line-height: 2.7rem;
+}
+.mail{
+	line-height: 2.7rem;
+	padding-left: 23%;
+ font-size: 0.9rem;
+ font-family: "Avenirnext",Arial,sans-serif;
+}
+.mail a{
+	color: #fff;
+	text-decoration: none;
+}
+.year{
+	float: right;
+	font-size: 0.9rem;
+	line-height: 2.7rem;
+}
+.get{
+	display: none;
+	text-align: center;
+  background-color: #333;
+  line-height: 2.7rem;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+.get:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.autbut{
+position: absolute;
+top:0;
+right:0;
+margin: 0.6rem 1rem;
+font-size: 1.5rem;
+float: right;
+border: none;
+background-color: transparent;
+display: none;
+cursor: pointer;
+z-index: 10;
+
+}
+
+.list{
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: #fff;
+	padding-bottom: .7rem;
+	
+}
+.menu-sm{
+	list-style: none;
+	text-align: center;
+	margin: 1rem 0 0.6rem;
+}
+.menu-sm li{
+display: inline-block;	
+text-transform: uppercase;
+font-size: 0.8rem;
+
+}
+.menu-sm a{
+text-decoration: none;
+}
+.menu-sm .bor{
+	margin: 0 auto;
+}
+
+.menu-sm .squaer:hover{
+	background: #fff;
+	color: #000;
+	border: 2px solid black;
+  
+}
+.verbor{
+	height: 2rem;
+	border-right: 1px solid #eee;
+	margin: .5rem 0;
+}
+.gorbor{
+	width: 2rem;
+	border-bottom: 1px solid #eee;
+	padding-top: 2rem;
+}
+
+.list span{
+	font-size: 1rem;
+	color: #000;
+	display:block;
+	font-family: "Hoefler";
+	padding: 3.5rem 0 0 3.5rem;
+}
+.foot-sm{
+text-align: center;
+font-size: 0.9rem;
+line-height: 2rem;
+}
+.mail-sm a{
+	text-decoration: none;
+	color: #666;
+}
+.mail-sm{
+	color: #666;
+}
+.year-sm{
+	color: #666;
+}
+
+#win{
+	opacity:0;
+	display: none;
+	z-index:100;
+  position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1, 1, 1, 0.725);
+}
+.close{
+	border: none;
+	background-color: transparent;
+	color: #ccc;
+	font-size: 1.5rem;
+	position: absolute;
+	top:0;
+	right: 0;
+	margin: 0.5rem 1rem;
+	cursor: pointer;
+}
+#message{
+	opacity:0;
+	display: none;
+	position: relative;
+	margin: 15% auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Roboto";
+	max-width: 700px;
+	height: auto;
+	background-color: #101010;
+	color: #ccc;
+	padding: 2.5rem 4.5rem 2.5rem 2rem;
+}
+.quote{
+	font-family: "Hoefler";
+	padding-bottom: 1.5rem;
+ }
+#message .sympl{
+  font-size: 0.9rem;
+  padding: 0.7rem 0 4rem;
+}
+#message a{
+	font-size: 0.9rem;
+	color: #ccc;
+}
+#message a i{
+	padding-right: 10px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+/*PAGE "WORK"*/
+
+.backg{
+	background-color: #eee;
+	max-width: 100%;
+	height: auto;
+	
+}
+li{
+	list-style: none;
+}
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.main-work li{
+margin-bottom: 1.5rem;
+float: left;
+}
+
+.pic-cont img{
+	width: 100%;
+	-webkit-transition: transform 1.5s ease 0s;
+	-o-transition: transform 1.5s ease 0s;
+	transition: transform 1.5s ease 0s;
+}
+.pic-cont img:hover{
+	-webkit-transition: scale(1,1);
+	-o-transition: scale(1,1);
+	transition: scale(1,1);
+}
+.wi-descr{
+	text-align: center;
+	line-height: 1.7rem;
+}
+.wi-descr h5{
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+.wi-descr .wid-text{
+	font-family: "Hoefler";
+	font-size: 1rem;
+}
+
+
+/*PAGE "TEAM"*/
+.pageitem{
+	width: 48%;
+}
+.infotext{
+	width: 80%;
+	border: 1px solid #bbb;
+	margin: 2rem 0 2rem 5rem;
+	padding-top: 2rem;
+	float: left;
+
+}
+.it-top{
+	width: 90%;
+	background-color: #eee;
+  margin-left: -2rem;
+	padding: 0.3rem 0 3.5rem;
+}
+.it-top h1{
+	font-family: "Avenirnext",Arial,sans-serif;
+	font-size: 2.9rem;
+  letter-spacing: 1px;
+}
+.it-top span{
+	font-family: "Hoefler";
+	font-size: 1.3rem;	
+	line-height: 1.5rem;
+  
+}
+ .h3wrap{
+ 	background-color: #eee;
+ 	font-size: 1rem;
+  margin-left: -2rem;
+  line-height: 2.5rem;
+ }
+.it-bot .line{
+	display: inline-block;
+	width: 4rem;
+	border-bottom: 2px solid #bbb;
+	margin-bottom: 0.3rem;
+	
+}
+
+.it-bot h3{
+	display: inline-block;
+ padding-left: 1rem;
+ font-family: "Avenirnext",Arial,sans-serif;
+ font-size: 1.5rem;
+
+}
+.it-bot h4{
+	font-family: "Avenirnext",Arial,sans-serif;
+  font-size: 1.1rem;
+  padding: 1rem 3rem 0;
+
+}
+
+.it-stamp{
+	background-color: #fff;
+	width: 45px;
+	height: 45px;
+	margin: 1.5rem auto;
+	background: url(../img/team/icons-s53f0fb467e.png) no-repeat 0 -102px;
+  
+}
+.fototeam{
+	float:right;
+    margin-bottom: 100px;
+}
+
+.pi-foto{
+	position: relative;
+	float: left;
+	width: 33.3%;
+
+}
+.pi-foto img{
+
+	background-color: #ccc;
+	min-height: 100%;
+  width: 100%;
+  height: auto;
+	
+}
+.pi-text{
+	 display: none;
+	 width: 100%;
+	 text-align: center;
+	 background: linear-gradient(to top, #fff, transparent);
+	 position: absolute;
+	 bottom: 0;
+	 padding: 3rem 0 0.5rem;
+  
+}
+.pi-foto:hover .pi-text{
+	display: block;
+}
+.pi-text .name-it{
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+.pi-text .about{
+	font-family: "Hoefler";
+
+}
+
+.grid{
+	margin: -30px 0 60px 0;
+	
+}

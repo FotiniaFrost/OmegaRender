@@ -1,0 +1,135 @@
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.foot{
+	font-size: 0.8rem;
+}
+.name{
+	color: transparent;
+}
+.pi-foto{
+	width: 300px;
+
+}
+.pageitem{
+	width: 100%;
+}
+.aboutteam{
+  width: 80%;
+  margin: 0 auto;
+} 
+.fototeam{
+	width: 100%;
+}
+.pi-foto{
+	width: 33.3%;
+
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.autbut{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+ .logo h2{
+ 	font-size: 1.2rem;
+ 	-webkit-background-size: 25% ;
+ 	background-size: 25%;
+ 	padding-left: 3rem;
+ 	line-height: 1.8rem;
+ 	margin-top: .5rem;
+ }
+.logo span{
+	display: none;
+}
+.get{
+	display: block;
+}
+.name{
+	display: none;
+}
+ .mail, .year{
+	float: none;
+	padding: 0;
+}
+.mail{
+	padding-top: 1rem;
+}
+footer .wraper{
+	text-align: center;
+}
+.backg{
+	padding-bottom: 25%;
+}
+.aboutteam{
+  width: 85%;
+  margin: 0;
+  text-align: left;
+} 
+.infotext{
+	width: 100%;
+	border: none;
+	margin: 2rem 0 0 1rem;
+	padding-top: 2rem;
+	float: none;
+}
+.it-top{
+	width: 100%;
+	background-color: #eee;
+	margin-left: 0;
+  padding: 0.3rem 0 3.5rem;
+}
+.h3wrap{
+ 	margin-left: 0;
+ }
+.it-bot .line{
+	display: none;
+}
+.it-bot h3{
+ padding-left: 0rem;
+}
+.it-bot h4{
+  padding: 1rem 0 3rem;
+}
+.it-stamp{
+	display:none;
+  
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.descript{
+	font-size: 1.3rem;
+}
+.pi-foto{
+	width: 100%;
+}
+.aboutteam{
+  width: 95%;
+  margin: 0;
+  text-align: left;
+} 
+.backg{
+	padding-bottom: 45%;
+}
+}
+
+
+
+
+@media only screen and (min-width : 768px) {
+.menu{
+		display: block !important;
+	}
+	.list{
+		display: none !important;
+	}
+}
+

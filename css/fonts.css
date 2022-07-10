@@ -1,0 +1,23 @@
+/*font-family: 'AvenirBold', sans-serif;*/
+@font-face {
+    font-family: AvenirBold; /* Гарнитура шрифта */
+    src: url(../fonts/AvenirNext-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+
+/*font-family: "Hoefler",Arial,sans-serif";*/
+@font-face {
+    font-family:Hoefler; /* Гарнитура шрифта */
+    src: url(../fonts/ufonts.com_hoefler-text-italic.ttf); /* Путь к файлу со шрифтом */
+   }
+   /* font-family: "Roboto"; */
+@font-face {
+	font-family:Roboto;
+	src:url("../fonts/RobotoMedium.ttf");
+	
+}
+
+/*font-family: "Avenirnext",Arial,sans-serif";*/
+@font-face {
+    font-family:Avenirnext; /* Гарнитура шрифта */
+    src: url(../fonts/AvenirNext-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
